@@ -9,32 +9,39 @@
   </head>
   <body>
     <h1>Validating Web Form</h1>
-    <form action="">
+    <main>
       <section>
         <label for="firstname">First Name </label>
         <input id="firstname" type="text" placeholder="First Name" />
+        <p class="firstErr"></p>
       </section>
       <section>
         <label for="lastname">Last Name </label>
         <input id="lastname" type="text" placeholder="Last Name" />
+        <p class="lastErr"></p>
       </section>
       <section>
         <label for="email">Email </label>
         <input id="email" type="email" placeholder="Email" />
+        <p class="emailErr"></p>
       </section>
       <section>
         <label for="password">Password </label>
         <input id="password" type="password" placeholder="Password" />
+        <p class="passErr"></p>
       </section>
       <section>
         <label for="telephone">Telephone </label>
         <input id="telephone" type="text" placeholder="Telephone" />
+        <p class="teleErr"></p>
       </section>
       <section>
         <label for="bio">Your Bio </label>
         <input id="bio" type="text" placeholder="Your Bio" />
+        <p class="bioErr"></p>
       </section>
-    </form>
+      <section><input id="submit" type="button" value="Submit" /></section>
+    </main>
     <script src="./main.js"></script>
   </body>
 </html>
